@@ -98,6 +98,8 @@ GameObject:
   - component: {fileID: 5202521543631170068}
   - component: {fileID: -1203934615493830136}
   - component: {fileID: -7513213683526616700}
+  - component: {fileID: 6625023421063106600}
+  - component: {fileID: 226054423937714761}
   m_Layer: 0
   m_Name: tani
   m_TagString: Untagged
@@ -266,3 +268,43 @@ MonoBehaviour:
   space: {fileID: 8553626361936172438}
   force: {x: 0, y: -10, z: 0}
   ignoreMass: 0
+--- !u!114 &6625023421063106600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9079051755335913260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 6106683299850446701}
+  collisionEventType: 0
+  collisionType: 1
+  triggers:
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: Distroy
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+--- !u!114 &226054423937714761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9079051755335913260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 6106683299850446701}
+  key:
+    target: 0
+    key: Distroy
