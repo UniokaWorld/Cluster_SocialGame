@@ -266,7 +266,7 @@ MonoBehaviour:
     target: 0
     key: Make
   space: {fileID: 8553626361936172438}
-  force: {x: 0, y: -10, z: 0}
+  force: {x: 0, y: -7, z: 0}
   ignoreMass: 0
 --- !u!114 &6625023421063106600
 MonoBehaviour:
