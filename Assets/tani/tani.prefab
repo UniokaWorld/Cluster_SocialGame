@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: -7513213683526616700}
   - component: {fileID: 6625023421063106600}
   - component: {fileID: 226054423937714761}
+  - component: {fileID: 2314713762298000017}
   m_Layer: 0
   m_Name: tani
   m_TagString: Untagged
@@ -308,3 +309,19 @@ MonoBehaviour:
   key:
     target: 0
     key: Distroy
+--- !u!114 &2314713762298000017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9079051755335913260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 6106683299850446701}
+  key:
+    target: 2
+    key: reset
