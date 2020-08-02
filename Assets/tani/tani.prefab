@@ -95,9 +95,9 @@ GameObject:
   - component: {fileID: 6106683299850446701}
   - component: {fileID: 7683168830362758527}
   - component: {fileID: 4454452094840025676}
-  - component: {fileID: 4030592405793542695}
   - component: {fileID: 5202521543631170068}
   - component: {fileID: -1203934615493830136}
+  - component: {fileID: -7513213683526616700}
   m_Layer: 0
   m_Name: tani
   m_TagString: Untagged
@@ -212,26 +212,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 6106683299850446701}
   rb: {fileID: 7683168830362758527}
---- !u!114 &4030592405793542695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9079051755335913260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 842f9c00db0f841309ddcc5a37da9bf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movableItem: {fileID: 4454452094840025676}
-  key:
-    target: 0
-    key: Make
-  parameterType: 1
-  space: {fileID: 8553626361936172438}
-  force: {x: 0, y: -10, z: 0}
-  ignoreMass: 0
 --- !u!65 &5202521543631170068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -267,3 +247,22 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
+--- !u!114 &-7513213683526616700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9079051755335913260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e9a020b2ef4fdfa5504a049cf38d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movableItem: {fileID: 4454452094840025676}
+  key:
+    target: 0
+    key: Make
+  space: {fileID: 8553626361936172438}
+  force: {x: 0, y: -10, z: 0}
+  ignoreMass: 0
