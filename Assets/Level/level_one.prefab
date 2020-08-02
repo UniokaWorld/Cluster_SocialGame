@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1494061717027025323}
   - component: {fileID: 1494061717027025322}
   - component: {fileID: 1494061717027025333}
+  - component: {fileID: 5938739425544045574}
+  - component: {fileID: 8500093987821795206}
   m_Layer: 0
   m_Name: level_one
   m_TagString: Untagged
@@ -106,6 +108,14 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: Des
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
 --- !u!114 &1494061717027025333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,3 +132,46 @@ MonoBehaviour:
   key:
     target: 2
     key: reset
+--- !u!114 &5938739425544045574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494061717027025334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eadc47e8f964e87aae22996c282c981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 0
+      key: Des
+    item: {fileID: 1494061717027025323}
+  delayTimeSeconds: 60
+  triggers:
+  - target: 4
+    specifiedTargetItem: {fileID: 0}
+    key: Dest
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+--- !u!114 &8500093987821795206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494061717027025334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1494061717027025323}
+  key:
+    target: 2
+    key: Dest
